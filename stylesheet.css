@@ -46,6 +46,12 @@ https://www.w3schools.com/css/css_padding.asp
 .top-padding-5{
     padding-top: 5%;
 }
+.top-padding-10{
+    padding-top: 10%;
+}
+.top-padding-15{
+    padding-top: 15%;
+}
 
 
 .div-size-10{
@@ -88,3 +94,4 @@ https://www.w3schools.com/css/css_padding.asp
     height: 90%;
     width: 90%;
 }
+
