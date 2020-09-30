@@ -1,11 +1,25 @@
 body {
     background: antiquewhite;
 }
-.navigation-panel{
-    display: inline;
-    float: right;
-    padding: 1%;
 
+.container{
+    background-color: aqua;
+}
+.nav{
+    float: right;
+}
+
+.logo{
+    float: left;
+    height: max-content 20px;
+}
+.navigation-bar{
+    margin-left: 10%;
+    margin-right: 10%;
+    letter-spacing: 5px;
+}
+.navigation-clickable{
+    border-spacing: 50%;
 }
 
 /*
