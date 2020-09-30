@@ -1,0 +1,21 @@
+/*
+More about flex-grid.
+https://www.w3schools.com/css/css3_flexbox_container.asp
+*/
+.Horizontal-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Vertical-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.displayBorderRed{
+    border: solid red;
+}
+
+body{
+    background: antiquewhite;
+}
