@@ -38,6 +38,11 @@
     border-radius: 5px;
 }
 
+.info .input {
+    width: 50%;
+    float: left;
+}
+
 
 /*
 * {
