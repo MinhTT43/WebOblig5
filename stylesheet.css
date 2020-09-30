@@ -1,6 +1,12 @@
 body {
     background: antiquewhite;
 }
+.navigation-panel{
+    display: inline;
+    float: right;
+    padding: 1%;
+
+}
 
 /*
 More about flex-grid:
