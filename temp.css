@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 120px;
+    background-color: blue;
+    margin: auto;
+
+}
+
+.nav-logo {
+    float: left;
+    margin: auto;
+    width: 100px;
+    object-fit: fill;
+}
+
+.nav-bar {
+    display: inline-block;
+    float: right;
+    padding-right: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}

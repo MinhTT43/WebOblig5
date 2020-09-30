@@ -12,19 +12,9 @@ body {
 header {
     width: 100%;
     height: 80px;
-    padding: 0;
+    padding: 10px;
     background-color: #9DB5B2;
     text-align: center;
-}
-
-footer{
-    background-color: #9DB5B2;
-    margin: 0;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    
 }
 
 .logo-bar {
@@ -75,7 +65,7 @@ nav a {
 /*
 More about flex-grid:
 https://www.w3schools.com/css/css3_flexbox_container.asp
-*/
+
 
 .horizontal-flex-container {
     display: flex;
@@ -94,7 +84,7 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 /*
 More about padding:
 https://www.w3schools.com/css/css_padding.asp
-*/
+
 
 .div-size-10 {
     height: 10%;
@@ -145,3 +135,4 @@ https://www.w3schools.com/css/css_padding.asp
     height: 90%;
     width: 90%;
 }
+*/
