@@ -17,9 +17,15 @@ nav ul{
     margin: 0;
 }
 
-.logo{
-    float: left;
+#logo{
+    width: 15%;
+    height: 175px;
     
+}
+
+#nav-dimension{
+    height: 175px;
+    width: 100%;
 }
 .navigation-bar{
     margin-left: 10%;
