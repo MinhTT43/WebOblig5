@@ -8,8 +8,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 10%;
-        background-color: #797a7e;
+        padding: 5px 25%;
+        background-color: #f08a5d;
     }
 
     li, a {
@@ -17,7 +17,7 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
         font-size: 16px;
-        color: #d8d3cd;
+        color: #eeecda;
         text-decoration: none;
         padding: 0px 5px 0px 5px;
     }
@@ -25,7 +25,6 @@
     a:hover {
         color: #e8e8e8;
         transition: all 0.1s ease 0s;
-
     }
 
     button {
@@ -37,14 +36,11 @@
         border-radius: 5px;
         cursor: pointer;
     }
-    
 
     button:hover {
         background-color: white;
         transition: all 0.1s ease 0s;
-
     }
-    
 
     li, section {
         margin: auto;
@@ -55,13 +51,11 @@
 
     .text-container-one {
         display: inline-block;
-        float: left;
         width: 500px;
     }
 
     .image-container-one {
         display: inline-block;
-        float: right;
     }
 
     HEAD footer {
