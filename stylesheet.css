@@ -1,11 +1,18 @@
 body {
-    background: antiquewhite;
+    background:aq;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 .navigation-panel{
     display: inline;
     float: right;
     padding: 1%;
+}
 
+footer{
+    background: rosybrown;
 }
 
 /*
@@ -116,4 +123,9 @@ https://www.w3schools.com/css/css_padding.asp
 .div-size-90 {
     height: 90%;
     width: 90%;
+}
+
+#front-page-introduction{
+    width: 100%;
+    height: 750px;
 }
