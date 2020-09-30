@@ -1,0 +1,19 @@
+div{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.calibri {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+font-weight: normal;
+}
+
+h1{
+    font-size: 45;
+    padding-top: 50px;
+    text-align: center;
+}
