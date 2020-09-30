@@ -1,53 +1,69 @@
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="temp.css">
     <link rel="stylesheet" href="stylesheet-contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap" rel="stylesheet">>
 </head>
 
-<body class="Calibri">
-    <header id="header-position">
-        <img src="pictures/Stay.png" alt="logo" class="logo-bar"></td>
-        <nav class="nav-bar" style="margin-right: 50px;">
+<body>
+
+    <header>
+
+        <img src="pictures/Stay.png" alt="logo" class="nav-logo"></td>
+
+        <nav class="nav-bar">
             <ul>
                 <li><a href="main.html">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="#">English</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-
-        <div style="background-color: white; height: 700px; margin-top: 150px;">
-                <h1>Contact Us</h1>
-            <div>
-                <label for="email" style="font-size: 20; text-align: left;"> Email</label> <br>
-                <input type="email" id="email" name="email" style="width: 400px; height: 40px;">
-            </div>
-            <div style="padding-top: 10px;">
-                <form action="/subjects">
-                    <label for="Subject" style="font-size: 20;"> Subjects</label> <br>
-                    <select name="Subjects" id="Subject" style="width: 400px; height: 40px;">
-                        <option value="0">Select</option>
-                        <option value="Test1">test1</option>
-                        <option value="Test2">test2</option>
-                        <option value="Test3">test3</option>
-                    </select>
-                </form>
-            </div>
-            <div>
-                <label for="message" style="font-size: 20;">Message</label> <br>
-                <textarea name="Message" id="message" class="Calibri message-box" ></textarea>
-            </div>
-            <div style="padding-top: 10px;">
-                <form action="submit">
-                    <input type="submit" value="Submit" class="Calibri box">
-                </form>
-            </div>
+    <div class="container">
+        <p>Contact Us</p>
+        <div class="info">
+            <input type="text" class="input" placeholder="Your Name">
+            <input type="text" class="input" placeholder="Your Email">
         </div>
 
-    </main>
+        <div class="subject">
+            <input type="text" class="input" placeholder="Subject">
+        </div>
+
+        <div class="message">
+            <textarea name="msg" id="msg" class="input" placeholder="Your message"></textarea>
+        </div>
+
+        <div class="button">
+            Send message
+        </div>
+    </div>
+
+    <!-- Contact us created using: https://www.youtube.com/watch?v=AmeTQHcsUgQ -->
+    <!-- <div class="container">
+               <p>Contact us</p>
+
+        <div class="info">
+            <input type="text" class="input" placeholder="Your Name">
+            <input type="text" class="input" placeholder="Your Email Address">
+        </div>
+
+        <div class="subject">
+            <input type="text" class="input" placeholder="Subject">
+        </div>
+
+        <div class="msg">
+            <textarea class="area" placeholder="Leave a Message"></textarea>
+        </div>
+
+        <div class="btn">
+            Send Message
+        </div>
+    </div> -->
+
+
 </body>
 
 <footer>
