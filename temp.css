@@ -49,13 +49,11 @@ section{
 
 .text-container-one {
     display: inline-block;
-    float: left;
     width: 500px;
 }
 
 .image-container-one {
     display: inline-block;
-    float: right;
 }
 
 .footer {
