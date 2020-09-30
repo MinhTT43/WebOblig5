@@ -47,7 +47,11 @@ footer{
     width: 400px;
 }
 
-
+#header-position{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 
 nav ul {
     margin: 0;

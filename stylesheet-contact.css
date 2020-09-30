@@ -1,7 +1,6 @@
 div{
     margin: auto;
     width: 50%;
-    text-align: center;
 }
 
 .calibri {
@@ -16,4 +15,15 @@ h1{
     font-size: 45;
     padding-top: 50px;
     text-align: center;
+}
+
+.box{
+    width: 400;
+    height: 40;
+    font-size: 20;
+}
+
+.message-box{
+    height: 200px;
+    width: 400;
 }
