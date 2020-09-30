@@ -9,7 +9,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px 10%;
-        background-color: teal;
+        background-color: #797a7e;
     }
     
     li,
@@ -18,33 +18,35 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
         font-size: 16px;
-        color: #afd3cc;
+        color: #d8d3cd;
         text-decoration: none;
-        padding: 0px 20px 0px 20px;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    a:hover {
+        color: #e8e8e8;
         transition: all 0.1s ease 0s;
     }
     
     button {
-        background-color: #e8e8e8;
-        border: none;
-        padding: 5px 25px;
-        border-radius: 50px;
+        background-color: #e0ece4;
+        font-size: 16px;
+        font-weight: 700;
+        border: 2x solid;
+        padding: 5px 5px;
+        border-radius: 5px;
         cursor: pointer;
-        transition: all 0.2s ease 0s;
     }
     
     button:hover {
         background-color: white;
+        transition: all 0.1s ease 0s;
     }
     
     li,
-    a:hover {
-        color: #e8e8e8;
-    }
-    
     section {
         margin: auto;
-        padding: 0px 50px 0px 50px;
+        padding: 0px 10px 0px 10px;
         justify-content: center;
         max-width: 1000px;
     }
