@@ -16,9 +16,13 @@ body {
     background-color: white;
 }
 
+table{
+    border-color: red;
+}
 .container {
 	width: 80%;
-	margin: 0 auto;
+    margin: 0 auto;
+    border-color: rebeccapurple;
 }
 
 
