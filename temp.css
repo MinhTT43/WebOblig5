@@ -3,31 +3,37 @@
         margin: 0;
         font-family: 'Montserrat', sans-serif;
     }
-    
+
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 10%;
-        background-color: #797a7e;
+        background-color: #edcfa9;
     }
-    
-    li,
-    a {
-        display: inline-block;
+
+    li, a {
+        display: inline;
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
-        font-size: 16px;
-        color: #d8d3cd;
+        font-size: 20px;
+        color: #d57149;
         text-decoration: none;
         padding: 0px 5px 0px 5px;
     }
-    
+
+    h1 {
+        display: block;
+        color: d57149;
+        font-size: 40px;
+    }
+
+
     a:hover {
-        color: #e8e8e8;
+        color: #aa4a30;
         transition: all 0.1s ease 0s;
     }
-    
+
     button {
         background-color: #e0ece4;
         font-size: 16px;
@@ -37,51 +43,53 @@
         border-radius: 5px;
         cursor: pointer;
     }
-    
+
     button:hover {
         background-color: white;
         transition: all 0.1s ease 0s;
     }
-    
-    li,
+
     section {
         margin: auto;
-        padding: 0px 10px 0px 10px;
+        margin-top: 200;
         justify-content: center;
         max-width: 1000px;
     }
-    
+
     .text-container-one {
         display: inline-block;
-        float: left;
-        width: 500px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.8;
+        max-width: 500px;
+        max-height: 500px;
     }
-    
+
     .image-container-one {
-        display: inline-block;
         float: right;
+        image-resolution: 500px;
     }
-    
+
     HEAD footer {
         position: fixed;
         bottom: 0;
         height: 50px;
         width: 100%;
     }
-    
+
     #footer-div {
         float: left;
     }
-    
+
     #footer {
         color: white;
         position: absolute;
         bottom: 0;
-        background-color: teal;
+        background-color: #edcfa9;
         width: 100%;
         text-align: center;
     }
-    
+
     textarea {
         resize: none;
     }
