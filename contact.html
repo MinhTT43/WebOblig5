@@ -1,8 +1,7 @@
 <head>
-    <meta charset="UTF-8">
+    <meta charset="8-utf">
     <link rel="stylesheet" href="temp.css">
-    <link rel="stylesheet" href="stylesheet-contact.css">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap" rel="stylesheet">>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -10,7 +9,6 @@
     <header>
 
         <img src="pictures/fox.png" alt="logo" style="height: 100px;">
-
         <nav>
             <ul>
                 <li><a href="main.html">Home</a></li>
@@ -19,57 +17,36 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Test!</button></a>
-
     </header>
 
-    <div class="container">
-        <p>Contact Us</p>
-        <div class="info">
-            <input type="text" class="input" placeholder="Your Name">
-            <input type="text" class="input" placeholder="Your Email">
+
+    <section id="center">
+        <div class="container">
+            <p>Contact Us</p>
+            <div class="info">
+                <input type="text" class="input" placeholder="Your Name">
+                <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="subject">
+                <input type="text" class="input" placeholder="Subject">
+            </div>
+
+            <div class="message">
+                <textarea name="msg" id="msg" class="input" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="button">
+                Send message
+            </div>
         </div>
-
-        <div class="subject">
-            <input type="text" class="input" placeholder="Subject">
-        </div>
-
-        <div class="message">
-            <textarea name="msg" id="msg" class="input" placeholder="Your message"></textarea>
-        </div>
-
-        <div class="button">
-            Send message
-        </div>
-    </div>
-
-    <!-- Contact us created using: https://www.youtube.com/watch?v=AmeTQHcsUgQ -->
-    <!-- <div class="container">
-               <p>Contact us</p>
-
-        <div class="info">
-            <input type="text" class="input" placeholder="Your Name">
-            <input type="text" class="input" placeholder="Your Email Address">
-        </div>
-
-        <div class="subject">
-            <input type="text" class="input" placeholder="Subject">
-        </div>
-
-        <div class="msg">
-            <textarea class="area" placeholder="Leave a Message"></textarea>
-        </div>
-
-        <div class="btn">
-            Send Message
-        </div>
-    </div> -->
-
-
+    </section>
 </body>
 
 <footer>
-    <div id="footer">
-        &copy; All rights reserved
+    <div>
+        <p id="footer-place">
+            &copy; All rights reserved
+        </p>
     </div>
 </footer>
