@@ -1,4 +1,4 @@
-            body {
+    body {
         padding: 0;
         margin: 0;
         font-family: 'Montserrat', sans-serif;
@@ -49,7 +49,7 @@
         transition: all 0.1s ease 0s;
     }
     
-    section {
+    #section-one {
         margin: auto;
         margin-top: 100px;
         justify-content: center;
@@ -72,12 +72,13 @@
     }
     
     footer {
-        color: white;
-        position: absolute;
-        bottom: 0;
-        background-color: #797a7e;
+        color: #d57149;
+        margin-top: auto;
+        background-color: #edcfa9;
         width: 100%;
+        height: 50px;
         font-weight: normal;
+        position: absolute;
     }
     
     #footer-place {
@@ -127,31 +128,44 @@
         border-width: thin;
     }
     
-    <<<<<<< HEAD footer {
-        color: white;
-        position: absolute;
-        bottom: 0;
-        background-color: #edcfa9;
-        =======.message .input {
-            >>>>>>>b54a507142b7f82db13e58b860b6b0a335e69e5a width: 100%;
-            height: 200px;
-            font-size: 14;
-            font-family: 'Montserrat', sans-serif;
-        }
-        .button {
-            width: 250px;
-            background: #797a7e;
-            height: 50px;
-            text-align: center;
-            line-height: 50px;
-            text-transform: uppercase;
-            margin: 0 auto;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        <<<<<<< HEAD textarea {
-            resize: none;
-            =======#center {
-                margin: auto;
-                >>>>>>>b54a507142b7f82db13e58b860b6b0a335e69e5a
-            }
+    .message .input {
+        width: 100%;
+        height: 200px;
+        font-size: 14;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .button {
+        width: 250px;
+        background: #d57149;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin: 0 auto;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    #center {
+        margin: auto;
+    }
+    
+    #section-two {
+        background-color: antiquewhite;
+        width: auto;
+        height: 1000px;
+        padding-top: 10px;
+        padding-left: 375px;
+        margin: 0;
+    }
+    
+    .container-one-timeline {
+        margin: 0;
+    }
+    
+    .containers-timeline {
+        display: inline-block;
+        width: 350px;
+        height: 400px;
+    }
