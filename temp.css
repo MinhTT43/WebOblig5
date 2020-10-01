@@ -1,4 +1,4 @@
-    body {
+            body {
         padding: 0;
         margin: 0;
         font-family: 'Montserrat', sans-serif;
@@ -51,7 +51,7 @@
     
     section {
         margin: auto;
-        margin-top: 200;
+        margin-top: 100px;
         justify-content: center;
         max-width: 1000px;
     }
@@ -66,30 +66,92 @@
     }
     
     .image-container-one {
+        display: inline-block;
         float: right;
         image-resolution: 500px;
-    }
-    
-    HEAD footer {
-        position: fixed;
-        bottom: 0;
-        height: 50px;
-        width: 100%;
-    }
-    
-    #footer-div {
-        float: left;
     }
     
     footer {
         color: white;
         position: absolute;
         bottom: 0;
-        background-color: #edcfa9;
+        background-color: #797a7e;
         width: 100%;
-        text-align: center;
+        font-weight: normal;
+    }
+    
+    #footer-place {
+        text-align: right;
+        padding-right: 20px;
     }
     
     textarea {
         resize: none;
     }
+    /* Contact us created using: https://www.youtube.com/watch?v=AmeTQHcsUgQ */
+    
+    .container {
+        justify-content: center;
+        width: 800px;
+        height: 600px;
+        margin: 45px;
+        padding: 25px;
+        box-shadow: 0 0 20px darkgrey;
+        border-radius: 5px;
+    }
+    
+    .container p {
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    /* 
+.input refeeres to ALL input methods
+<input type="text" class="" placeholder=""> 
+*/
+    
+    .input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 30px;
+        outline: none;
+        border-radius: 5px;
+        border-width: thin;
+        transition: all 0.5s ease;
+    }
+    
+    .info .input {
+        width: 50%;
+        float: left;
+        border-width: thin;
+    }
+    
+    <<<<<<< HEAD footer {
+        color: white;
+        position: absolute;
+        bottom: 0;
+        background-color: #edcfa9;
+        =======.message .input {
+            >>>>>>>b54a507142b7f82db13e58b860b6b0a335e69e5a width: 100%;
+            height: 200px;
+            font-size: 14;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .button {
+            width: 250px;
+            background: #797a7e;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            text-transform: uppercase;
+            margin: 0 auto;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        <<<<<<< HEAD textarea {
+            resize: none;
+            =======#center {
+                margin: auto;
+                >>>>>>>b54a507142b7f82db13e58b860b6b0a335e69e5a
+            }
