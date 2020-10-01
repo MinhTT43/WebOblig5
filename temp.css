@@ -3,7 +3,7 @@
         margin: 0;
         font-family: 'Montserrat', sans-serif;
     }
-
+    
     header {
         display: flex;
         justify-content: space-between;
@@ -11,8 +11,9 @@
         padding: 10px 10%;
         background-color: #edcfa9;
     }
-
-    li, a {
+    
+    li,
+    a {
         display: inline;
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
@@ -21,19 +22,18 @@
         text-decoration: none;
         padding: 0px 5px 0px 5px;
     }
-
+    
     h1 {
         display: block;
         color: d57149;
         font-size: 40px;
     }
-
-
+    
     a:hover {
         color: #aa4a30;
         transition: all 0.1s ease 0s;
     }
-
+    
     button {
         background-color: #e0ece4;
         font-size: 16px;
@@ -43,19 +43,19 @@
         border-radius: 5px;
         cursor: pointer;
     }
-
+    
     button:hover {
         background-color: white;
         transition: all 0.1s ease 0s;
     }
-
+    
     section {
         margin: auto;
         margin-top: 200;
         justify-content: center;
         max-width: 1000px;
     }
-
+    
     .text-container-one {
         display: inline-block;
         font-size: 15px;
@@ -64,24 +64,24 @@
         max-width: 500px;
         max-height: 500px;
     }
-
+    
     .image-container-one {
         float: right;
         image-resolution: 500px;
     }
-
+    
     HEAD footer {
         position: fixed;
         bottom: 0;
         height: 50px;
         width: 100%;
     }
-
+    
     #footer-div {
         float: left;
     }
-
-    #footer {
+    
+    footer {
         color: white;
         position: absolute;
         bottom: 0;
@@ -89,7 +89,7 @@
         width: 100%;
         text-align: center;
     }
-
+    
     textarea {
         resize: none;
     }
